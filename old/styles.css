@@ -1,0 +1,106 @@
+body {
+    background-color: #e8e6e4;
+    color : #143E52;
+    width: 60em;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#hlava dl {
+    text-align:right;
+}
+#hlava dt {
+    position:absolute;
+    left:50000px;
+}
+#hlava dd {
+    display:inline;
+    font-weight:bold;
+}
+
+#menu {
+    width:18%;
+    float:left;
+    background-color: yellow;
+    border-bottom: 30px solid black;
+    border: black solid 1px;
+}
+#menu p {
+    width:50%;
+    border: black solid 1px;
+}
+#obsah {
+    width:75%;
+    float:right;
+}
+#paticka {
+    border: solid black 2px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    clear:both;
+}
+
+h1,h2,h3,h4 {
+    color: red; 
+    background-color: green;
+    width:10em; 
+}
+/* poznámka */
+li {
+    color: red;
+}
+
+em > strong {
+    font-size:200%;
+}
+em strong {
+    color : green;
+}
+
+h2 + p {
+    width:50%;
+    background-color:#abc;
+}
+
+a:hover {
+    background-color: #19f;
+    text-decoration:none;
+}
+a:link {
+    color:blue;
+}
+a:visited {
+    color:orange;
+}
+
+#hlavni {
+    background-color:orange;
+}
+
+ul .nazeleno, ol .nazeleno {
+    color: #060;
+    background-color: #0f0;
+}
+
+.vpravo {
+    float: right;
+}
+.vlevo {
+    float: left;
+}
+
+p.vlevo , p.vpravo {
+    width:20em;
+    font-size:130%;
+    border: 5px solid rgb(88%,88%,50%);
+    border-width: 8px;
+    border-style:dashed;
+    border-color: green;
+    border-left: 5px solid rgb(88%,88%,50%);
+    border-top-color: black;
+    background-color:yellow;
+    padding-top:30px;
+    padding: 10px 20px 30px 40px;
+    padding: 20px 40px 0px;
+    margin: 50px;
+}
