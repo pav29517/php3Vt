@@ -1,4 +1,3 @@
-
 <h1>Ahoj</h1>
 
 <?php
@@ -29,6 +28,7 @@ echo $vysledek;
 
 
 ?>
+<!-- a komentář v HTML, zde je opět HTML a ne PHP -->
 
 nějaký html kód 
 
